@@ -4,15 +4,18 @@ To-do Application built using React
 
 To-do Application Release Notes:
 V0.1.0 (12/05/22)
+
 Added TodoForm.jsx, Button.jsx
 Created input for text (on what task the user wants to accomplish today)
 Styling for buttons and overall font-family, color scheme of the site (added default css like box-sizing, font-family)
 Created button component that can be used across different components of the app (takes in props to allow for different conditions to affect usability of the button and the handling upon clicking of button)	
+
 V0.2.0 (13/05/22)
 Added TodoItem.jsx, Card.jsx, TodoNumber.jsx
 Created a visual representation of what each TodoItem should look like upon user submitting their input; Here, users can have a glance at what they need to do for the day, as well as click on the button “I’m Done!” when they have finished the task, and that task will be removed from the list.
 Card component created that can be used across different components to wrap around the divs, and provide an overall consistent look 
 TodoNumber added to provide a realtime count of the number of tasks that the person has to do today
+
 V0.3.0 (13/05/22)
 Added Todo.jsx, TodoData.js
 Created Todo.jsx, which serves as a realtime updating list of all the Todos that the user has; 
@@ -46,7 +49,7 @@ Change specific values in the request to send to Google Calendar
 
 Add a prompt that pops up saying a task has been added (user feedback)
 Prompt text changed, added responsiveness and styling, attached the prompt to form submission/onClick of button
-(Design the prompt)
+(Designed the prompt)
 (Pop-up animation)
 
 V0.4.2 (17/05/2022)
